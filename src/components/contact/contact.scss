@@ -19,6 +19,11 @@
     }
     .formContainer {
         flex: 1;
+        .mailSvg {
+            position: absolute;
+            margin: auto;
+            stroke:orange;
+        }
         form {
             display: flex;
             flex-direction: column;

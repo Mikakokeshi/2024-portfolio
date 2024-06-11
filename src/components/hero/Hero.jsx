@@ -58,16 +58,16 @@ const Hero = () => {
                 </a>
                 </motion.div>
                 <a href="#Services" className='scrollButton'>
-                    <motion.img variants={textVariants} animate='scrollButton' src="/scroll.png" alt="" />
+                    <motion.img variants={textVariants} animate='scrollButton' src="/scroll.svg" alt="" />
                 </a>
             </motion.div>
         </div>
         <motion.div variants={sliderVariants} initial='initial' animate='animate' className="slidingTextContainer">
             Welcome 
         </motion.div>
-        <div className="imageContainer">
+        {/* <div className="imageContainer">
             <img src="./hero.png" alt="" />
-        </div>
+        </div> */}
     </div>
 )
 }

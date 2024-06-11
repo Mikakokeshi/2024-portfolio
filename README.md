@@ -1,5 +1,5 @@
 # Build with 
-React + Vite
+React + Vite 
 
 ## Deploy 
 https://2024-portfolio-smoky.vercel.app/

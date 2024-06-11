@@ -36,7 +36,10 @@
             }
             .scrollButton {
                 display: block;
-                width: 50px;
+                width: 65px;
+                img {
+                    width:100%;
+                }
             }
         }
     }
