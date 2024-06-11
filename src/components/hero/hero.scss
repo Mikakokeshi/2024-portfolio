@@ -24,8 +24,10 @@
                 text-align: center;
               }
             a {
-                margin-bottom: 10px;
-                display: block;
+                @include mobile {
+                    margin-bottom: 10px;
+                    display: block;
+                }
             }
             h1 {
                 font-size: 70px;
