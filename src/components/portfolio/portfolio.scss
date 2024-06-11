@@ -6,7 +6,7 @@
         left: 0;
         padding-top: 50px;
         text-align: center;
-        color: orange;
+        color: rgb(175, 149, 4);
         font-size: 36px;
         .progressBar {
             height: 10px;
@@ -19,6 +19,7 @@
         justify-content: center;
         width: 100%;
         height: 100%;
+        overflow: hidden;
         .wrapper {
             max-width: 1366px;
             height: 100%;
@@ -35,6 +36,7 @@
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                object-position: left;
             }
 
         }
@@ -45,16 +47,17 @@
             flex-direction: column;
             gap: 30px;
             h2{
-                font-size: 70px;
+                font-size: 36px;
             }
             p{
-                color: gray;
+                color: lightgray;
                 font-size: 20px;  
             }
             .button {
                 border-radius: 10px;
-                background-color: orange;
+                background-color: rgb(175, 149, 4);
                 border: none;
+                width: 50%;
                 height: 50px;
                 display: flex;
                 justify-content: center;
