@@ -1,3 +1,6 @@
+@import "../../app.scss";
+
+
 .navbar {
     height: 100px;
     
@@ -8,6 +11,9 @@
         align-items: center;
         justify-content: flex-end;
         height: 100px;
+        @include mobile {
+            padding: 30px;
+        }
 
         span {
             font-weight: bold;

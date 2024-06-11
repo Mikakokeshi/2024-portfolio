@@ -20,7 +20,7 @@ const items = [
     id: 3,
     title: "Next.js ",
     url: "https://music-app-gamma-liard.vercel.app/",
-    img: "./music-app.png",
+    img: ".png",
     desc: "Reactを使用してます"
   },
 ]
