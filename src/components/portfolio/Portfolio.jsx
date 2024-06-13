@@ -16,13 +16,13 @@ const items = [
     img: "./sns-app.png",
     desc: "#Features: Login, Sign up, create and delete a post"
   },
-  {
-    id: 3,
-    title: "Next.js ",
-    url: "https://music-app-gamma-liard.vercel.app/",
-    img: ".png",
-    desc: "Reactを使用してます"
-  },
+  // {
+  //   id: 3,
+  //   title: "Next.js ",
+  //   url: "https://music-app-gamma-liard.vercel.app/",
+  //   img: ".png",
+  //   desc: "Reactを使用してます"
+  // },
 ]
 
 const Single =({item}) => {
