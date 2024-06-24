@@ -7,8 +7,8 @@ const items = [
     title: "React Music App",
     url: "https://music-app-gamma-liard.vercel.app/",
     img: "./music-app.png",
-    feature: "Search function/Pagination/Play a song",
-    buildWith: "React/Spotify API/Tailwind CSS",
+    feature: "Key Feature: Search function/Pagination/Play a song",
+    buildWith: "Build with: React/Spotify API/Tailwind CSS",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const items = [
     title: "React Portdolio",
     url: "https://2024-portfolio-smoky.vercel.app/",
     img: "./portfolio-app.png",
-    feature: "Smooth animations",
+    feature: "Key Feature: Smooth animations",
     buildWith: "Build with: React/Framer Mortion/scss",
   },
 ];
